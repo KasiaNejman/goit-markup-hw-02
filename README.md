@@ -1,1 +1,1 @@
-https://github.com/KasiaNejman/goit-markup-hw-02.git
+https://kasianejman.github.io/goit-markup-hw-02/
