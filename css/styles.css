@@ -9,16 +9,12 @@
 .big-first-letter {
   text-transform: uppercase;
 }
-.body {
-  font-family: "Raleway", sans-serif;
+body {
   font-family: "Roboto", sans-serif;
-  border-bottom: 1px solid, cornsilk;
   background: var(--background);
 }
 .logo {
   text-decoration: none;
-}
-.web {
   width: 44px;
   color: var(--color-text-in-web-and-btn);
   font-family: Raleway;
@@ -30,15 +26,7 @@
   text-transform: uppercase;
 }
 .studio {
-  width: 71px;
   color: var(--color-text-in-menu-adress-h2-footer-bg);
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 1.313rem;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
 }
 /* menu in navi*/
 .menu,
@@ -64,6 +52,9 @@
   letter-spacing: 0.32px;
   text-decoration: none;
 }
+.pointer {
+  cursor: pointer;
+}
 .contacts:hover {
   color: var(--color-text-in-web-and-btn);
 }
@@ -74,20 +65,21 @@
   color: var(--color-text-in-menu-adress-h2-footer-bg);
 }
 .menu-button .button {
-  background-color: cornsilk;
+  background-color: var(--background3);
 }
 .menu-button .button:hover {
-  background-color: darkcyan;
+  background-color: var(--color-text-in-web-and-btn);
 }
 .menu-button .button:focus {
-  background-color: darkgoldenrod;
+  background-color: var(--color-text-in-web-and-btn);
 }
 .menu-button .button:active {
-  background-color: indianred;
+  background-color: #404bbf;
+  background: #fff;
 }
 .section1 {
   color: var(--background2);
 }
 .section3 {
-  color: var(--background3);
+  color: var(--color-text-in-menu-adress-h2-footer-bg);
 }
