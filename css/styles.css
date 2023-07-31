@@ -83,3 +83,6 @@ body {
 .section3 {
   color: var(--color-text-in-menu-adress-h2-footer-bg);
 }
+.ul {
+  list-style-type: none;
+}
