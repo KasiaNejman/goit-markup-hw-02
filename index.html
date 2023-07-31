@@ -4,18 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"></style>
+    <link rel="stylesheet" href="./css/styles.css"/>
   </head>
   <body>
-    <header class="section1">
+    <header>
       <nav>
-        <a class="logo" href="/">
-        <span class="web">WEB</span>
-        <span class="studio">STUDIO</span>
+        <a class="logo" href="index.html">
+          <span class="web">WEB</span>
+          <span class="studio">STUDIO</span>
         </a>
         <ul class="menu">
-          <li><a class="navi" href="index.html"><span class="big-first-letter">s</span>tudio</a></li>
-          <li><a class="navi" href="portfolio.html"><span class="big-first-letter">P</span>ortfolio</a></li>
-          <li><a class="big-first-letter">C</span>ontacts</a></li>
+          <li><a class="navi" href="index.html" class="big-first-letter" class="Pointer">Studio</a></li>
+          <li><a class="navi" href="portfolio.html" class="big-first-letter" class="Pointer">Portfolio</a></li>
+          <li><a class="pointer">Contacts</a></li>
         </ul>
       </nav>
       <address>
@@ -26,9 +30,14 @@
       </address>
     </header>
     <main>
-      <section class="section1">
+      <ul class="section1">
+        <li>
         <h1>Effective Solutions for Your Business</h1>
-        <button class="menu-button" type="button">Order Service</button>
+        </li>
+      </ul>
+      <ul class="menu-button">
+        <li><button class="button" class="pointer" type="button">Order Service</button></li>
+      </ul>
       </section>
       <section>
         <ul>
@@ -145,8 +154,11 @@
         </ul>
       </section>
     </main>
-    <footer class="section1">
-      <a href="index.htlm"><span>WEB</span>STUDIO</a>
+    <footer>
+      <a class="logo" href="index.html">
+        <span class="web">WEB</span>
+        <span class="studio">STUDIO</span>
+      </a>
       <p>
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
