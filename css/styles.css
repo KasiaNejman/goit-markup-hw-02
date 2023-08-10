@@ -13,6 +13,10 @@ body {
   font-family: "Roboto", sans-serif;
   background: var(--background);
 }
+.web{
+  color:var(--color-text-in-web-and-btn) ;
+  width: 2.75rem;
+}
 .logo {
   text-decoration: none;
   color: var(--color-text-in-web-and-btn);
@@ -137,6 +141,9 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.32px;
   text-decoration: none;
+}
+.studio-in-footer{
+  color: #fff;
 }
 .contacts {
   width: 71px;
