@@ -27,30 +27,7 @@ body {
 .studio {
   color: var(--color-text-in-menu-adress-h2-footer-bg);
 }
-/* menu in navi*/
-.menu,
-.navi {
-  
-  color: var(--color-text-in-menu-adress-h2-footer-bg);
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-  text-decoration: none;
-}
-.contacts {
-  width: 71px;
-  color: var(--color-text-in-menu-adress-h2-footer-bg;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-  text-decoration: none;
-}
+
 .pointer {
   cursor: pointer;
 }
@@ -147,4 +124,28 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02;
 
+}
+/* menu in navi*/
+.menu,
+.navi {
+  
+  color: var(--color-text-in-menu-adress-h2-footer-bg);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  text-decoration: none;
+}
+.contacts {
+  width: 71px;
+  color: var(--color-text-in-menu-adress-h2-footer-bg;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  text-decoration: none;
 }
