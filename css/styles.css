@@ -99,6 +99,15 @@ body {
   letter-spacing: 0.32px;
   text-decoration: none;
 }
+.button-in-main-section {
+  color: #fff;
+  background-color: var(--color-button-hover-focus-and-active);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  text-decoration: none;
+}
 .section1 {
   color: var(--background2);
 }
