@@ -16,6 +16,14 @@ body {
 .web{
   color:var(--color-text-in-web-and-btn) ;
   width: 2.75rem;
+  text-decoration: none;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.31;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
 }
 .logo {
   text-decoration: none;
@@ -29,7 +37,15 @@ body {
   text-transform: uppercase;
 }
 .studio {
+  text-decoration: none;
   color: var(--color-text-in-menu-adress-h2-footer-bg);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.31;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
 }
 
 .pointer {
