@@ -62,7 +62,8 @@ body {
   color: var(--color-button-hover-focus-and-active);
 }
 .menu-button .button {
-  background-color: var(--color-text-in-web-and-btn);
+  color: var(--color-text-in-web-and-btn);
+  background-color: var(--background3);
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -72,7 +73,8 @@ body {
   text-decoration: none;;
 }
 .menu-button .button:hover {
-  background-color: var(--color-button-hover-focus-and-active);
+  color: var(--color-text-in-web-and-btn);
+  background-color: var(--background3);
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -82,8 +84,8 @@ body {
   text-decoration: none;
 }
 .menu-button .button:focus {
-  background-color: var(--color-button-hover-focus-and-active);
-  font-family: Roboto;
+  color: var(--color-text-in-web-and-btn);
+  background-color: var(--background3);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -92,8 +94,8 @@ body {
   text-decoration: none;
 }
 .menu-button .button:active {
+  color:#fff;
   background-color: var(--color-button-hover-focus-and-active);
-  background: #fff;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -111,7 +113,7 @@ body {
 ul {
   list-style-type: none;
 }
-.footer {
+.footer-color {
   background-color: var(--color-text-in-menu-adress-h2-footer-bg);
 }
 .background-section-effective-solution{
