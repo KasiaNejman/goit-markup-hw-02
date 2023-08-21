@@ -120,8 +120,14 @@ ul {
 .footer-color {
   background-color: var(--color-text-in-menu-adress-h2-footer-bg);
 }
-.background-section-effective-solution {
+.section-effective-solution {
   background-color: var(--color-text-in-menu-adress-h2-footer-bg);
+  color: #fff;
+  font-size: 3.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.75rem;
+  letter-spacing: 0.07rem;
 }
 .h3 {
   color: var(--color-text-in-menu-adress-h2-footer-bg);
