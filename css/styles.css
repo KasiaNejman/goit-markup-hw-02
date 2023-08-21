@@ -147,7 +147,7 @@ ul {
 }
 /* menu in navi*/
 .menu,
-.navi {
+.menu-list {
   
   color: var(--color-text-in-menu-adress-h2-footer-bg);
   font-family: Roboto;
