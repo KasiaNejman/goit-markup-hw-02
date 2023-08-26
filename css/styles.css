@@ -46,6 +46,17 @@ body {
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
+.studio-1 {
+  text-decoration: none;
+  color: var(--background);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.31;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
 
 .pointer {
   cursor: pointer;
